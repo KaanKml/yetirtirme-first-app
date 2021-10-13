@@ -12,9 +12,9 @@ import App4 from './StylingLayout/App4'
 import HomeScreen from './CoreComponents/HomeScreen'
 
 import ShoppingList from './CoreComponents/ShoppingList'
-import {name as appName} from './app.json';
+import Counter from './CoreComponents/Counter';
 
-AppRegistry.registerComponent(appName, () => HomeScreen);
+AppRegistry.registerComponent(appName, () => Counter);
 // yorum 
 //
 //tekil olarak export gelirse 
