@@ -13,8 +13,8 @@ import HomeScreen from './CoreComponents/HomeScreen'
 
 import ShoppingList from './CoreComponents/ShoppingList'
 import Counter from './CoreComponents/Counter';
-
-AppRegistry.registerComponent(appName, () => Counter);
+import ShoppingList1 from './State/ShoppingList'
+AppRegistry.registerComponent(appName, () => ShoppingList1);
 // yorum 
 //
 //tekil olarak export gelirse 
